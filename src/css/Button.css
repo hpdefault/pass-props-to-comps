@@ -1,0 +1,9 @@
+.reusable-btn {
+    background-color: black;
+    border: none;
+    transition: 0.3s;
+}
+
+.reusable-btn:hover {
+    background-color: gray;
+}
