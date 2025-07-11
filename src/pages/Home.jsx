@@ -2,6 +2,7 @@ import UniButton from "../components/Button"
 import ButtonWrap from "../components/ButtonWrap"
 import CardWrapper from "../components/Card1Wrapper"
 import '../css/Home.css'
+import { Link } from 'react-router-dom';
 function Home() {
     return (
         <div className="home"> 
@@ -11,6 +12,7 @@ function Home() {
                 <CardWrapper />
                 <ButtonWrap  label="test1"/>
             </div>
+            <Link to='/buttonpg' className='nav-link'>Buttonpg</Link>
         </div>
         
     )

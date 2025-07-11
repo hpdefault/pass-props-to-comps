@@ -5,6 +5,7 @@ import './css/App.css';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
+import ButtonInputChng from './pages/ButtonAndInput';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/buttonpg" element={<ButtonInputChng />} />
         </Routes>
         
       </main>
